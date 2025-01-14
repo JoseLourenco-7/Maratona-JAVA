@@ -21,4 +21,16 @@ public class Aula02TiposPrimitivos {
 
 
     }
+
+    public static class Aula05EstruturasCondicionais {
+        public static void main(String[] args) {
+            int idade = 17;
+            if(idade >= 18){
+                System.out.println("Está autorizado a retirar CNH");
+            }else {
+                System.out.println("Não está autorizado a retirar CNH");
+
+            }
+        }
+    }
 }
