@@ -20,4 +20,38 @@ public class Aula05EstruturasCondicionais04 {
         System.out.println("Saldo do sálario: " + (salarioAnual - valorImposto));
 
     }
+
+    public static class Aula05EstruturasCondicionais06 {
+        public static void main(String[] args) {
+           byte dia = 5;
+           String diaSemana;
+           switch (dia){
+               case 1:
+                   System.out.println("Dia da semana é: Domingo");
+
+                   break;
+               case 2:
+                   System.out.println("Dia da semana é: Segunda");
+                   break;
+               case 3:
+                   System.out.println("Dia da semana é: Terça");
+                   break;
+               case 4:
+                   System.out.println("Dia da semana é: Quarta");
+                   break;
+               case 5:
+                   System.out.println("Dia da semana é: Quinta");
+                   break;
+               case 6:
+                   System.out.println("Dia da semana é: Sexta");
+                   break;
+               case 7:
+                   System.out.println("Dia da semana é: Sabádo");
+                   break;
+               default:
+                   System.out.println("Dia inválido");
+           }
+
+        }
+    }
 }
