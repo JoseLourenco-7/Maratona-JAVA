@@ -1,18 +1,28 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class Aula05EstruturasCondicionais05 {
+public class Aula06EstruturasRepeticao01 {
     public static void main(String[] args) {
-       byte dia = 1;
-       String diaSemana;
-       switch (dia){
-           case 1, 7:
-               System.out.println("Final de Semana");
-               break;
-           case 2, 3, 4, 5, 6:
-               System.out.println("Dia últil.");
-               break;
-           default:
-               System.out.println("Dia inválido");
+      // while, do while, for
+
+        System.out.println("\nWHILE \n");
+       int count = 1;
+       while (count < 11){
+           System.out.println(count);
+           count += 1;
+       }
+
+        System.out.println("\nDO-WHILE\n");
+
+       count = 10;
+       do {
+           System.out.println(count);
+           count -= 1;
+       }       while (count >= 1);
+
+        System.out.println(" \nFOR \n");
+
+       for (int i = 1; i <= 10; i++){
+           System.out.println( i);
        }
 
     }
