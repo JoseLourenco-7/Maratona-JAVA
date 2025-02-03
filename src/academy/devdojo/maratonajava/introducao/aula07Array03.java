@@ -1,14 +1,18 @@
 package academy.devdojo.maratonajava.introducao;
 
-public class Aula07Array02 {
+public class aula07Array03 {
     public static void main(String[] args){
-        int[] idades = new int[3];
-        idades[0] = 13;
-        idades[1] = 18;
-        idades[2] = 15;
+        int[] numeros = new int[3];
+        int[] numeros1 = {1,2,3,4,5};
+        int[] numeros2 = new int[]{5,4,3,2,1};
 
-        for (int i = 0; i < idades.length; i++) {
-            System.out.println(idades[i]);
+        for(int i = 0; i < numeros2.length; i++){
+            System.out.println(numeros2[i]);
         }
+
+        for(int num : numeros2){
+            System.out.println(num);
+        }
+
     }
 }
