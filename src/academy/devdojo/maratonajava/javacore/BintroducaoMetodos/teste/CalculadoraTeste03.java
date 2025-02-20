@@ -10,5 +10,7 @@ public class CalculadoraTeste03 {
        double resultadoDivisao = calculadora.divideDoisNumeos(100, 8);
        System.out.println(resultadoDivisao);
 
+        calculadora.imprimeDivisaoDoisNumeros(10, 3);
+
     }
 }
