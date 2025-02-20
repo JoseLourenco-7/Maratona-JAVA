@@ -15,11 +15,38 @@ public class Calculadora {
    }
 
    public double divideDoisNumeos (double num1, double num2){
-        double resultado = num1 / num2;
+
         if (num2 == 0){
             return 0;
+        }else {
+            return num1 / num2;
         }
-       return resultado;
    };
+
+   public void imprimeDivisaoDoisNumeros(double num1, double num2 ){
+        if (num2 == 0){
+            System.out.println("Não existe divião por zero");
+        }else {
+            System.out.println(num1 / num2);
+        }
+   }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
