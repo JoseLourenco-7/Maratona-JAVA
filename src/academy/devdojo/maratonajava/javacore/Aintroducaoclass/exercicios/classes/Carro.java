@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.introducaoclass.exercicios.classes;
+package academy.devdojo.maratonajava.javacore.Aintroducaoclass.exercicios.classes;
 
 public class Carro {
     String nome;
